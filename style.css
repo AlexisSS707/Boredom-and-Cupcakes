@@ -1,0 +1,63 @@
+/*Styles*/
+
+h1 {
+   color: white;
+   text-align: center;
+}
+
+body  {
+   margin-top: 100px;
+}
+
+#lovepage  {
+   background-color: pink;
+}
+
+#hatepage {
+   background-color: grey;
+}
+
+#index {
+   background-image: url(media/neon.jpg);
+   background-size: 100% auto;
+}
+
+p {
+   font-size: 25px;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+
+img   {
+   margin-left: 40%;
+}
+
+nav   {
+   margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 23%;
+	color: pink;
+}
+
+ul {
+   list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+  display: inline;
+  margin-left: 10%;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}

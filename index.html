@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cupcake</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body id="index">
+   <header>
+      <nav>
+         <ul>
+         <li><a href="hate.html">Cupcake Hater</a></li>
+         <li><a href="love.html">Cupcake Lover</a></li>
+         </ul>
+      </nav>
+   </header>
+   <h1>Welcome To The World of Cupcakes</h1>
+   <img src="media/victyuck.jpeg" alt="eating boy" id="cute">
+   <p>Do you like cupcakes?<br>
+   Me too!</p>
+   <script>
+   var music = new Audio('media/strangers.mp3');
+   var yum = document.getElementById("cute");
+		yum.addEventListener("click", click);
+		function click(e)
+		{
+		   music.play();
+		}
+   </script>
+</body>
+</html>
